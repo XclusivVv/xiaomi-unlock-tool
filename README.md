@@ -36,7 +36,6 @@ catches it and tells you exactly what the issue is instead of failing silently.
 
 Install dependencies:
 ```
-bash
 python run_first.py
 ```
 
@@ -44,7 +43,6 @@ That's it. The script creates a virtual environment, installs everything, and la
 
 Or if you already have the venv set up:
 ```
-bash
 python app.py
 ```
 
