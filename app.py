@@ -741,7 +741,7 @@ class XiaomiUnlockTool:
         
         # Input panel
         input_panel = ctk.CTkFrame(left_frame, fg_color=ColorScheme.CARD_BG, corner_radius=10)
-        input_panel.pack(fill="x", pady=(0, 10), sticky="ew")
+        input_panel.pack(fill="x", pady=(0, 10), expand=True)
         
         ctk.CTkLabel(
             input_panel,
