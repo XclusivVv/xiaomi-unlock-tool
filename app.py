@@ -51,21 +51,33 @@ GITHUB_REPO_URL = "https://github.com/AsInsideOut/miunlocktool/releases/tag/Stab
 
 # Dark theme color scheme
 class ColorScheme:
-    PRIMARY = "#FF8C00"
-    PRIMARY_HOVER = "#FF9933"
-    SECONDARY = "#9D4EDD"
-    SECONDARY_HOVER = "#C77DFF"
-    DARK_BG = "#1a1a2e"
-    DARKER_BG = "#0f0f1e"
-    CARD_BG = "#16213e"
-    TEXT_PRIMARY = "#E0E0E0"
-    TEXT_SECONDARY = "#B0B0B0"
-    SUCCESS = "#4CAF50"
-    SUCCESS_HOVER = "#45a049"
-    DANGER = "#FF6B6B"
-    DANGER_HOVER = "#FF5252"
-    BORDER = "#FF8C00"
-    LOG_BG = "#0a0a14"
+    # Primary colors - Charcoal & Gray (softer contrast)
+    DARK_BG = "#111827"        # Dark charcoal
+    DARKER_BG = "#0d1421"      # Darker charcoal
+    CARD_BG = "#151f2e"        # Softer dark gray cards (was #1f2937)
+    BORDER = "#2d3748"         # Softer gray borders (was #374151)
+    
+    # Accent colors - Blue & Gray
+    PRIMARY = "#3b82f6"        # Blue
+    PRIMARY_HOVER = "#2563eb"  # Darker blue
+    SECONDARY = "#6b7280"      # Gray
+    SECONDARY_HOVER = "#4b5563" # Darker gray
+    
+    # Status colors
+    SUCCESS = "#22c55e"        # Green
+    SUCCESS_HOVER = "#16a34a"  # Darker green
+    DANGER = "#ef4444"         # Red
+    DANGER_HOVER = "#dc2626"   # Darker red
+    WARNING = "#f59e0b"        # Amber
+    
+    # Text colors
+    TEXT_PRIMARY = "#f9fafb"   # Very light gray
+    TEXT_SECONDARY = "#d1d5db" # Light gray
+    TEXT_MUTED = "#9ca3af"     # Medium gray
+    
+    # Special backgrounds
+    LOG_BG = "#0d1421"         # Dark log area
+    HEADER_BG = "#151f2e"      # Header matches cards
 
 ntp_servers = [
     "time1.google.com", "time2.google.com", "time3.google.com",
